@@ -5,6 +5,8 @@ This is the official implementation for our **CVPR 2023** [paper](https://arxiv.
 > **📢Temporary Statement !!!**:
 Thank you for your interest in our work! We have received many requests regarding our code and are excited to announce that we have released the raw code. However, please note that we have not yet provided any supplementary explanations. We will be releasing our model and reproduction guidance soon, so please stay tuned! 💻👀
 
+🔬 You can start by reproducing our work based on our code. Please note that the experimental results may vary due to different environments and settings, which may sometimes lead to higher mIoU results than reported in the paper by up to 1.0%. However, it is still acceptable to compare your results with those reported in the paper.
+
 > **Abstract:** *Few-shot semantic segmentation (FSS) aims to form class-agnostic models segmenting unseen classes with only a handful of annotations. Previous methods limited to the semantic feature and prototype representation suffer from coarse segmentation granularity and train-set overfitting. In this work, we design Hierarchically Decoupled Matching Network (HDMNet) mining pixel-level support correlation based on the transformer architecture. The self-attention modules are used to assist in establishing hierarchical dense features, as a means to accomplish the cascade matching between query and support features. Moreover, we propose a matching module to reduce train-set overfitting and introduce correlation distillation leveraging semantic correspondence from coarse resolution to boost fine-grained segmentation. Our method performs decently in experiments. We achieve 50.0% mIoU on \coco~dataset one-shot setting and 56.0% on five-shot segmentation, respectively.*
 
 
