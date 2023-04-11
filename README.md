@@ -3,7 +3,7 @@
 This is the official implementation for our **CVPR 2023** [paper](https://arxiv.org/abs/2303.14652) "*Hierarchical Dense Correlation Distillation for Few-Shot Segmentation*".
 
 > **📢Temporary Statement !!!**:
-Thank you for your interest in our work! We have received many requests regarding our code and are excited to announce that we have released the raw code. However, please note that we have not yet provided any supplementary explanations. We will be releasing our model and reproduction guidance soon, so please stay tuned! 💻👀
+Thank you for your interest in our work! We have received many requests regarding our code and are excited to announce that we have released the raw code and [models](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155186045_link_cuhk_edu_hk/Eo5I56lRAOlIrKqcpFvA7NYBvvhR3QI8Gn_KLDdn9bb95A?e=YudoGF). However, please note that we have not yet provided any supplementary explanations. We will be releasing the reproduction guidance soon, so please stay tuned! 💻👀
 
 🔬 You can start by reproducing our work based on our code. Please note that the experimental results may vary due to different environments and settings, which may sometimes lead to higher mIoU results than reported in the paper by up to 1.0%. However, it is still acceptable to compare your results with those reported in the paper.
 
