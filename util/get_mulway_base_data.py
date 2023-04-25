@@ -44,7 +44,7 @@ for sp in [0, 1, 2, 3]:
         elif args.data_set == 'coco':
             num_classes = 80
 
-        root_path = '/mnt/home/bhpeng22/githubProjects/fewshot_segmentation/data'
+        root_path = '/Your_Data_Path'
         data_path = osp.join(root_path, 'base_annotation/')
         save_path = osp.join(data_path, args.data_set, args.mode, str(args.split))
         check_makedirs(save_path)
@@ -53,7 +53,7 @@ for sp in [0, 1, 2, 3]:
         sub_list, sub_val_list = get_train_val_set(args)
 
         # get data_list
-        fss_list_root = '/mnt/home/bhpeng22/githubProjects/fewshot_segmentation/FSS/lists/{}/fss_list/{}/'.format(args.data_set, args.mode)
+        fss_list_root = 'Your_Project_Path/lists/{}/fss_list/{}/'.format(args.data_set, args.mode)
         fss_data_list_path = fss_list_root + 'data_list_{}.txt'.format(args.split)
         with open(fss_data_list_path, 'r') as f:
             f_str = f.readlines()
