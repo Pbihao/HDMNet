@@ -33,13 +33,13 @@ Please download the following datasets:
 
 + COCO-20<sup>i</sup>: [**COCO 2014**](https://cocodataset.org/#download).
 
-We follow the lists generation as [PFENet](https://github.com/dvlab-research/PFENet) and upload the [Data lists](https://mycuhk-my.sharepoint.com/:f:/r/personal/1155186045_link_cuhk_edu_hk/Documents/HDMNet/lists?csf=1&web=1&e=hIRXdq). You can direct download and put them into the `./lists` directory.
+We follow the lists generation as [PFENet](https://github.com/dvlab-research/PFENet) and upload the [Data lists](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155186045_link_cuhk_edu_hk/Eo5I56lRAOlIrKqcpFvA7NYBCiAzbB-mgdJwXNd4H6IPRQ?e=oufe8a). You can direct download and put them into the `./lists` directory.
 
 💥 Please ensure that you uncomment the data list generation sections and generate the base annotation when running the code for the first time. More details refer to `util/get_mulway_base_data.py` and `util/dataset.py`
 
 ## Models
 
-We have adopted the same procedures as [BAM](https://github.com/chunbolang/BAM) for the [pre-trained backbones](https://mycuhk-my.sharepoint.com/:f:/r/personal/1155186045_link_cuhk_edu_hk/Documents/HDMNet?csf=1&web=1&e=pXqNWC), placing them in the `./initmodel` directory. We have also uploaded the complete [trained model](https://mycuhk-my.sharepoint.com/:f:/r/personal/1155186045_link_cuhk_edu_hk/Documents/HDMNet/model?csf=1&web=1&e=zaSoyx) of COCO dataset for your convenience. For Pascal dataset, you can directly retrain the models since the traing time is less than 10 hours. 
+We have adopted the same procedures as [BAM](https://github.com/chunbolang/BAM) for the [pre-trained backbones](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155186045_link_cuhk_edu_hk/Eo5I56lRAOlIrKqcpFvA7NYBCiAzbB-mgdJwXNd4H6IPRQ?e=oufe8a), placing them in the `./initmodel` directory. We have also uploaded the complete [trained model](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155186045_link_cuhk_edu_hk/Eo5I56lRAOlIrKqcpFvA7NYBCiAzbB-mgdJwXNd4H6IPRQ?e=oufe8a) of COCO dataset for your convenience. For Pascal dataset, you can directly retrain the models since the traing time is less than 10 hours. 
 
 
 To reproduct the results we reported in our paper, you can just download the corresponding models and run test script. But we still highly recommond you to retrain the model. Please note that the experimental results may vary due to different environments and settings. We sometimes get higher mIoU results than reported in the paper by up to 1.0%. However, it is still acceptable to compare your results with those reported in the paper only. Wish you a good luck! 😄😄
